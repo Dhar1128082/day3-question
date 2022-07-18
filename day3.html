@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="./day3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+      
+
+
+
+
+<pre>
+
+
+      Ques1: Difference between flex row and column
+      Ans: In Css these are the property of flex. To achive this we can write display as a flex and we can align the child 
+      container inside flex container either in a row i.e. main axis or in column i.e. cross axis
+
+
+
+      Ques2: Difference between Inline, Internal and External Css 
+      Ans:- Inline CSS:- An inline style may be apply a unique style for a single element . To use inline style, 
+            To use inline style, add the style attribute to the relevant element. The style attribute can contains any 
+            CSS property.
+            Internal CSS:- An Internal style sheet may be used if one single html page has a unique style.
+            The internal style is defined inside the style element, inside the head section 
+            External CSS:- In html page must include a reference to the External style sheet file inside
+            the link element, inside the head section. 
+
+
+      Ques3:- Discuss Justify content?
+      Ans:- In CSS, it is a property of flex, through which we can align items in a row manner. Justify content values
+      are:- baseline, center, space-around, space-between, flex-end, flex-start. 
+
+
+      Ques4:- Difference b/w absolute and relative positioning?
+      Ans:- Absolute:- In CSS, the element is positiond absolutely to its first positioned parent.
+                                     or
+      
+      An element with position:absolute is positioned relative to the nearest positioned ancestor.
+      However, if an absolute positioned element has no positioned ancestor, it uses the document body and 
+      moves along with page scrolling.
+
+      Relative:- An element position: relative; is positioned relative to its normal position.
+      Setting the top, right, bottom, and left properties of a relatively- positioned element will come it to
+      be adjusted away from its normal position.
+      other content will not be adjusted to fit into any gap left by the element.
+
+      Ques:-5 What is grid-template-columns used for?
+      Ans:- In CSS, grid-template-columns property specifies the number( and the width) of columns in grid-layout 
+             The values are a space seperated list, where each value specifies the size of the respective column.      
+
+
+      Ques:-6 What is the z-index in CSS?
+      Ans:- The z-index property specifies the stack order of an element.
+             An element with greater stack order is always in front of an element with a lower stack order
+
+            z-index only works on positioned element (i.e. position:absolute, relative, fixed or sticky)
+
+
+      Ques:-7 What is the Difference b/w padding and margin?
+      Ans:- Padding:- In CSS, padding is applied inside the element. It effect the side of element like heigth and 
+            width. Padding values are always in positive.
+
+
+            margin:- In CSS, if we look on CSS- box model the space provided outside the element are called margin.
+            Margin did not effect the size of element. like height and width
+            margin values are -ve and +ve.
+
+
+      Ques:-8 What is box-sizing?
+      Ans:- The Css box-sizing property allows us to include the padding and border in an elements total width
+                  and height.
+                  eg:- box-sizing: border-box;
+            
+            
+      Ques:-9 What is animation delay?
+      Ans:- In CSS, it is a property of animation. The animation-delay property specifies a delay for the 
+            start of an animation.
+
+            Animation-delay value defined in second(s) or milliseconds(ms)
+            default value is 0s. eg:- animation-delay:2s 
+
+      Ques:-10 Which property you will use to merge cells vertically in grid?
+      Ans:- The grid-column propety specifies a grid item's size and location in a grid layout, and it is
+                        a shorthand property.
+                        eg:- grid-column:2/span 3;
+                                    or
+                        grid-column-start:2;
+                        grid-column-end: span2;
+
+
+      Ques:11 Which property you will use to merge cells horizontally in grid?
+      Ans: The grid-row property specifies a grid-items size ad location in grid-layout and it is 
+                              shorthand property
+
+                              eg:- grid-row: 1/span 3; shorthand property
+                                                or
+                              
+                              grid-row-start:1;
+                              grid-row-end: span 3; 
+
+
+      Ques12: Explain Css Box model?
+      Ans:- In CSS, teh term box-model is used when we are talking about design and layout .
+            The CSS box model is essentally a box that wraps around every html element.
+            it consists of:- margin, border, padding, and the content area.
+
+
+      Ques13:- What is difference b/w display none and visibility hidden?
+      Ans:-    Display:none:- is commonly used with Javascript or html to hide and show elements without 
+                           deleting and recreating them.
+
+
+                           visibility:hidden:- Hidden elements take up space on the page.
+
+                           visibility property specifies whether or not an element is visible.
+
+                  </pre>
+
+
+                  
+    <!-- Ques:1 Creating a button of masterhead? -->
+    <button>Enroll Now</button>
+
+    <!-- Ques:2 Write a text and give it a google font? -->
+    <h1>Elevation Academy</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima doloribus sapiente et ullam magni inventore?</p>
+
+    <!-- Ques:3 Create a box and increase its width on hover, add transition on hover  -->
+
+    <div class="effect"></div>
+
+    <!-- Ques:4 Create a circle using border-radius? -->
+
+    <div class="circle"></div>
+
+    <!-- Ques:5 Write a code to show implementation of media queries? -->
+
+    <p class=".p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ipsum quas illo in 
+        velit, minus odit reiciendis totam voluptates sequi.</p>
+
+
+    <!-- Ques:6 Write a code to show any animation example? -->
+
+    <div class="animation"></div>
+
+                  
+                        
+                  </body>
+</html>

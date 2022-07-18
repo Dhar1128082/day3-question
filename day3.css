@@ -1,0 +1,94 @@
+button{
+    height: 40px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover{
+    background-color: rgb(177, 243, 243);
+}
+
+
+h1
+{
+    font-family: 'Lato', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+.effect{
+    background-color: crimson;
+    width: 200px;
+    margin: 20px;
+    height: 100px;
+    transition: width 2s;
+    border: 2px solid black;
+}
+
+.effect:hover{
+    width: 400px;
+}
+
+
+.circle{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.p{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    color: black;
+}
+
+
+
+@media screen and (min-width:280px) and (max-width:500px)
+ {
+    .p{
+        font: size 10px;
+    }
+    
+}
+
+
+.animation
+{
+    height: 200px;
+    width: 200px;
+    background-color: violet;
+    color: black;
+    border: 1px solid black;
+    animation: dhar 2s linear infinite;
+}
+
+@keyframes dhar
+{
+    
+0%{
+    background-color: brown;
+}    
+25%{
+    background-color: green;
+}
+50%{
+    background-color: yellowgreen;
+}
+100%{
+    background-color: aqua;
+}
+
+}
+
+
